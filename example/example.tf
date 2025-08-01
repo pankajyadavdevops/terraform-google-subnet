@@ -8,7 +8,7 @@ provider "google" {
 ##### module-vpc
 #####==============================================================================
 module "vpc" {
-  source                                    = "git@github.com:pankajyadavdevops/terraform-google-network.git"
+  source                                    = "git@github.com:pankajyadavdevops/terraform-google-network.git?ref=v1.0.0"
   version                                   = "1.0.2"
   name                                      = "app"
   environment                               = "test"
